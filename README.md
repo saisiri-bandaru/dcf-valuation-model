@@ -2,11 +2,15 @@
 
 Unlevered DCF for a fictional CPG company (**Northline Consumer Products**): free cash flow build, WACC, Gordon-growth terminal value, equity bridge, NPV and IRR.
 
-**File to open:** `Northline_DCF_Valuation_Model.xlsx`
+**Open this file:** [`Northline_DCF_Valuation_Model.xlsx`](Northline_DCF_Valuation_Model.xlsx)
+
+## Business question
+
+Is this capital ask worth more than it costs — and how fragile is that answer if WACC is 100 bps higher or terminal growth is 50 bps lower?
 
 ## What you will see
 
-- Five-year revenue → EBITDA → NOPAT → unlevered FCF build
+- Five-year revenue → EBITDA → NOPAT → unlevered FCF
 - CAPM cost of equity, after-tax cost of debt, and WACC
 - Enterprise value from discounted FCFs + terminal value
 - Equity value (EV − net debt) and value per share
@@ -15,13 +19,14 @@ Unlevered DCF for a fictional CPG company (**Northline Consumer Products**): fre
 
 Yellow cells with blue font are inputs. Black font is formulas.
 
-## How to use
+## What to change in a screen-share
 
-1. Open `01_Assumptions` and change the yellow cells (growth, margins, WACC inputs, g, net debt).
-2. Read `02_FCF_Build` for the cash-flow bridge.
-3. Confirm WACC on `03_WACC`.
-4. Read enterprise value, equity value, NPV, and IRR on `04_Valuation`.
-5. Stress the case on `05_Sensitivity`.
+1. Open `01_Assumptions` and change growth, margin, WACC inputs, or `g`.
+2. Confirm the FCF bridge on `02_FCF_Build` still reads like operations, not a plug.
+3. Read EV, equity value, NPV, and IRR on `04_Valuation`.
+4. Stress the case on `05_Sensitivity`.
+
+**Fragility test:** lift WACC 1.0% and cut terminal `g` 0.5%. If equity value collapses, the pitch is too dependent on the terminal year — say that out loud before a committee does.
 
 ## Tabs
 
@@ -35,18 +40,6 @@ Yellow cells with blue font are inputs. Black font is formulas.
 | `05_Sensitivity` | Equity value vs WACC and g |
 | `06_Data_Dictionary` | Field definitions |
 
-## Stack
+Excel formulas only — no VBA, no live prices, no employer data.
 
-Excel (formulas only — no VBA). Built so another analyst can inherit the file from the data dictionary.
-
-## Not included on purpose
-
-- Live market prices or ticker pulls
-- Confidential employer data
-- A full three-statement LBO or football-field (this is the *unlevered DCF*)
-
-All sample numbers are fictional.
-
-## Profile
-
-Sai Siri Bandaru — Financial Analyst | FP&A | forecasting, variance analysis, Excel
+[Profile](https://github.com/saisiri-bandaru) · [Portfolio](https://saisiri-bandaru.github.io)
