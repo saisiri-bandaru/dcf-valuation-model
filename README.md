@@ -42,4 +42,4 @@ Yellow cells with blue font are inputs. Black font is formulas.
 
 Excel formulas only — no VBA, no live prices, no employer data.
 
-[Profile](https://github.com/saisiri-bandaru) · [Portfolio](https://saisiri-bandaru.github.io)
+[Profile](https://github.com/saisiri-bandaru) · [Portfolio](https://saisiri-bandaru.github.io) · [LinkedIn](https://www.linkedin.com/in/bandarusaisiri) · [bandarusaisiri1207@gmail.com](mailto:bandarusaisiri1207@gmail.com)
